@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIZEMUG PROJECT</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="icons/all.min.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="overlay showOverlay hidden">
+          <div class="sub_overlay">
+            <!--  Task Interested Section -->
+
+            <h2>Create Task</h2>
+            <div class="btns_container">
+              <p>Tasks Interests</p>
+              <div class="tech_group">
+                <!--- prettier-ignore -->
+                <button>Tech</button>
+                <button>Education</button>
+                <button>Fashion</button>
+                <button>Business</button>
+                <button>History</button>
+              </div>
+
+              <div class="entertainment_group">
+                <!--- prettier-ignore -->
+                <div>
+                  <button>Entertainment</button>
+                </div>
+                <button>Food</button>
+                <button>Sport</button>
+                <button>Magic</button>
+                <button>Law</button>
+                <button>Medicine</button>
+              </div>
+
+              <div class="healthCare_group">
+                <!--- prettier-ignore -->
+                <button>Healthcare</button>
+                <button>Engineering</button>
+              </div>
+
+              <!-- Landing Image Section -->
+              <div>
+                <p class="upload_para">Images</p>
+                <div class="file_upload_container">
+                  <span class="upload_icon">
+                    <img src="images/upload_2.png" alt="" />
+                  </span>
+                  <div>
+                    <label for="file_upload" class="drop_area"
+                      >Click to upload</label
+                    ><span>or drag and drop</span>
+                    <p>SVG, PNG, JPG or GIF (max, 800 * 400px)</p>
+                  </div>
+                  <div>
+                    <input
+                      type="file"
+                      multiple
+                      accept="Image/"
+                      id="file_upload"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <!-- Image Display -->
+              <div class="image_preview"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
